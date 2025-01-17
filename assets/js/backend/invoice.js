@@ -107,8 +107,8 @@ $(function () {
 							'" class="btn btn-sm btn-icon item-edit"><i class="text-primary ti ti-eye"></i></a>' +
 							'<a href="invoice/edit/' +
 							full.id +
-							'" class="btn btn-sm btn-icon item-edit"><i class="text-primary ti ti-pencil"></i></a>'
-							// '<a href="javascript:;" class="btn btn-sm btn-icon item-delete"><i class="text-primary ti ti-trash"></i></a>'
+							'" class="btn btn-sm btn-icon item-edit"><i class="text-primary ti ti-pencil"></i></a>' +
+							'<a href="javascript:;" class="btn btn-sm btn-icon item-delete"><i class="text-primary ti ti-trash"></i></a>'
 						);
 					},
 				},
