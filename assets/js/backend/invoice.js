@@ -7,6 +7,7 @@ $(function () {
 			ajax: "invoice/data",
 			dataSrc: "data",
 			scrollX: true,
+			orderClasses: true,
 			columns: [
 				{
 					data: null,
@@ -89,6 +90,7 @@ $(function () {
 				},
 			],
 			columnDefs: [
+				{ targets: "_all", className: "sorting" },
 				{ responsivePriority: 1, targets: 1 },
 				{ responsivePriority: 2, targets: 2 },
 				{ responsivePriority: 3, targets: 3 },
