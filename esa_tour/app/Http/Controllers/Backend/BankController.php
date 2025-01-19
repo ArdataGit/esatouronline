@@ -150,7 +150,7 @@ class BankController extends Controller
             $data->whereDate('date', $request->date);
         }
 
-        return response()->json(['data' => $data->orderBy('created_at', 'desc')->get()]);
+        return response()->json(['data' => $data->orderBy('date', 'desc')->get()]);
     }
 
     public function transfer(Request $request)
